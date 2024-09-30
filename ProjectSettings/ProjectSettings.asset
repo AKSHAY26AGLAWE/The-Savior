@@ -740,6 +740,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: DREAMTECK_SPLINES
     Standalone: DREAMTECK_SPLINES
+    WebGL: DREAMTECK_SPLINES
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

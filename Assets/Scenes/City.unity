@@ -277,6 +277,8 @@ MonoBehaviour:
   levels:
   - {fileID: 7555696643295213581, guid: 7eacfe511806e574a982944d6eac40b0, type: 3}
   - {fileID: 7555696643295213581, guid: 53b33b1d71738aa499a5e551052755f7, type: 3}
+  - {fileID: 7555696643295213581, guid: dd261e71ec066fe469f3274eaeb0468b, type: 3}
+  - {fileID: 7555696643295213581, guid: b1f121f01d2358a4399bd118447d0bac, type: 3}
   preventSpawing: 0
 --- !u!1 &114291195
 GameObject:
@@ -920,6 +922,7 @@ Transform:
   - {fileID: 2046304018}
   - {fileID: 1530064812}
   - {fileID: 113276371}
+  - {fileID: 994707241}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &554556387
@@ -2098,6 +2101,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3263699454365990613, guid: 748d19574625db444877ca05561b6aea, type: 3}
   m_PrefabInstance: {fileID: 1688199247}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &994707240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 994707241}
+  m_Layer: 0
+  m_Name: Mission Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &994707241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994707240}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 470685863}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &998462802
 GameObject:
   m_ObjectHideFlags: 0
@@ -4539,8 +4573,8 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1147126841822240251, guid: ce389cbb255282343ad9a218b7cf8c87, type: 3}
-  - {fileID: 2100000, guid: 284e21a7ffb21b94a83f6a7d14c8304b, type: 2}
+  - {fileID: 2100000, guid: 35afacbd51b4ffd4ebf387053a3186cb, type: 2}
+  - {fileID: 2100000, guid: f0432f5fc3bd16b46af487c9dbdcefbc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5944,10 +5978,10 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b484eaf3a82072c47a6fd39871df1196, type: 2}
-  - {fileID: 2100000, guid: 54eaa7c592231e94cada9a2f6daa2808, type: 2}
-  - {fileID: -6728760635301559800, guid: ce389cbb255282343ad9a218b7cf8c87, type: 3}
-  - {fileID: 2100000, guid: 204c66a80a3e2a8459fe6f6d073935d2, type: 2}
+  - {fileID: 2100000, guid: 4c9f0eeb590bbae42b75e89773d92660, type: 2}
+  - {fileID: 2100000, guid: d8e1345a66f8b1645a4584b62a2116dd, type: 2}
+  - {fileID: 2100000, guid: c9f02f6641c35804890d920a1edc6793, type: 2}
+  - {fileID: 2100000, guid: cbbb897cf9187ce458dcfa668135b1e6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7155,5 +7189,5 @@ SceneRoots:
   - {fileID: 1311667147}
   - {fileID: 588109333}
   - {fileID: 1698202501}
-  - {fileID: 470685863}
   - {fileID: 1079936698}
+  - {fileID: 470685863}
